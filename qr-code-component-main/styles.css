@@ -1,0 +1,37 @@
+/* .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } */
+body {
+  background-color: #D6E1F0;
+  
+  font-family: "Outfit", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+}
+main {
+  display: flex;
+  height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  width: 300px;
+  background-color: hsl(0, 0%, 100%);
+  align-items: center;
+  border-radius:10px;
+  padding:16px;
+}
+.qr-container img {
+  width:100%;
+  border-radius:10px;  
+}
+.text-container p:first-of-type {
+  font-weight: bold;
+  font-size:24px;
+  color: #000000;
+}
+
+.text-container p {
+  text-align: center;
+  color: #555555;
+  font-size: 15px;
+}
